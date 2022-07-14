@@ -5,8 +5,19 @@ body{
 .color{
     color: gold;
 }
-section{
+.flexible{
+    
     display: flex;
+  
+
+}
+.experience{
+    box-shadow: 10px 10px 40px rgb(11, 180, 236);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 25%;
 }
 .half-width{
     width: 50%;
@@ -27,9 +38,7 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-section{
-    display: flex;
-}
+
 .yes{
     color:purple;
 }
@@ -37,4 +46,9 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
